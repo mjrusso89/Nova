@@ -1,0 +1,186 @@
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/* Base
+   ========================================================================== */
+body {
+    font-family: $font_normal;
+    font-size: 12px;
+    line-height: 1.4;
+    color: $color_default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global Typography
+   ========================================================================== */
+
+a {
+    text-decoration: none;
+    color: $color_default;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* section head */
+
+.heading h1 {
+  margin: 0 auto;
+  font-size: 85px;
+  font-family: $font_lato;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 85px
+}
+
+.heading a {
+  color: $color_gold;
+  text-decoration: none;
+}
+
+.call p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px 0 0 0;
+  color: $color_gold;
+  font-size: 12px;
+}
+
+.call a {
+  font-size: 30px;
+}
+
+
+.nav li a {
+  font-family: $font_play;
+}
+
+.year h2 {
+  margin: 0 auto;
+  font-size: 90px;
+  font-family: $font_play;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 70px;
+  letter-spacing: 0px;
+  z-index: 4;
+}
+
+.year h3 {
+  margin: 0 auto;
+  font-size: 55px;
+  font-family: $font_play;
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: 0px;
+  z-index: 4;
+}
+
+.btn a {
+  font-size: 12px;
+  color: #fff;
+
+}
+
+.item-1 p {
+  color: #fff;
+  font-family: $font_lato;
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 47px;
+  letter-spacing: 4px;
+}
+
+.item-2 p {
+  color: #fff;
+  font-family: $font_lato;
+  font-size: 44px;
+  font-weight: 100;
+  line-height: 41px;
+  letter-spacing: 1px;
+}
+
+.item-3 p {
+  color: #fff;
+  font-family: $font_lato;
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+
+.item-4 p {
+  color: #353534;
+  font-family: $font_lato;
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+
+.gold-year p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.item-1 a, 
+.item-2 a,
+.item-3  a {
+  color: #fff;
+  font-family: $font_lato;
+  font-size: 12px;
+  line-height: 47px;
+}
+
+.item-4  a {
+  color: #353534;
+  font-family: $font_lato;
+  font-size: 12px;
+  line-height: 47px;
+}
+
+.testimonial h2 {
+  font-family: $font_play;
+  color: $color_gold;
+  font-size: 40px;
+  margin: 0 auto;
+  font-style: italic;
+  line-height: 42px;
+}
+
+.menu h3,
+.offer h3,
+.contact h3, {
+  font-family: $font_lato;
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+.menu li,
+.offer li,
+.contact li, {
+  font-family: $font_pt;
+  font-size: 15px;
+}
+
+.call-copy p {
+  text-align: right;
+  position: relative;
+  margin: 84px 0 0 0;
+  font-size: 15px;
+}
+
+.call-2 p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px 0 0 0;
+  color: $color_gold;
+  font-size: 12px;
+}
+
+.call-2 a {
+  font-size: 30px;
+}

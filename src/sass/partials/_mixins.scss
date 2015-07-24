@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+/* 1. Mixin
+========================================================================== */
+
+@mixin blackGradient ($fromColor, $toColor) {
+	background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, right top, left bottom, from($fromColor)); /* modern */
+  background-image: -webkit-linear-gradient(right top, $fromColor, $toColor); /* Chrome 10-13 */
+  background-image:    -moz-linear-gradient(right top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(right top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(right top, $fromColor, $toColor); /* Opera 11.3 */
+  background-image:         linear-gradient(right top, $fromColor, $toColor);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorSTR='#',EndColorStr='#');
+}
+
+@mixin whiteGradient ($fromColor, $toColor) {
+	background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear,top, bottom, from($fromColor)); /* modern */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10-13 */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.3 */
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorSTR='#',EndColorStr='#');
+}

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Components
+   ========================================================================== */
+   body {
+    background: #fff;
+   }
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.inner img.logo {
+  margin: 15px 0 10px 5px;
+  width: 173px;
+  height: 46px;
+}
+
+.phone {
+  margin: 0 10px 5px 0;
+  width: 15px;
+  height: 16px;
+}
+
+
+  .item-2 {
+    	position: relative;
+    	&:before {
+    		content: '';
+    		position: absolute;
+    		right: 0;
+    		left: 0;
+    		bottom: 0;
+    		top: 0;
+    		opacity: 0.5;
+    		@include blackGradient(transparent, black 80%);
+   	    z-index: 3;
+    	}
+   }
+
+   .item-3 {
+    	&:before {
+    		content: '';
+    		position: absolute;
+    		right: 0;
+    		left: 0;
+    		bottom: 0;
+    		top: 0;
+    		opacity: 0.5;
+    		@include blackGradient(transparent , black 90%);
+   	    z-index: 3;
+    	}
+   }
+
+   .item-4 {
+    &:before {
+    	content: '';
+    	position: absolute;
+    	right: 0;
+    	left: 0;
+    	bottom: 0;
+    	top: 0;
+    	@include whiteGradient(transparent , white 70%);
+   	   z-index: 3;
+    }
+  }
+

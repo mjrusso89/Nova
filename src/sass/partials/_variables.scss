@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Variables: colors, sizes, fonts
+   ========================================================================== */
+
+/* Colors
+========================================================================== */
+$color_default:     #404040;
+$color_green:       #008000;
+$color_gold:        #b88912;
+
+/* Sizes
+========================================================================== */
+$size_inner:        1142px;
+
+/* Breakpoints
+========================================================================== */
+$breakpoint_tablet:             max-width 1225px;
+$breakpoint_tablet-mini:        max-width 950px;
+$breakpoint_smartphone:         max-width 767px;
+$breakpoint_smartphone-mini:    max-width 375px;
+
+/* Fonts
+========================================================================== */
+//@import url($fontURL);
+$font_normal:       'Roboto', Arial, sans-serif;
+$font_play:         'Playfair Display', serif;
+$font_lato:         'font-family: ''Lato', sans-serif;
+$font_pt:           'PT Sans', sans-serif;
