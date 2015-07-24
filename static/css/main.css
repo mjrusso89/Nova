@@ -472,7 +472,7 @@ a {
 .heading h1 {
   margin: 0 auto;
   font-size: 85px;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   letter-spacing: 5px;
   line-height: 85px; }
@@ -519,7 +519,7 @@ a {
 
 .item-1 p {
   color: #fff;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 45px;
   font-weight: 100;
   line-height: 47px;
@@ -527,7 +527,7 @@ a {
 
 .item-2 p {
   color: #fff;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 44px;
   font-weight: 100;
   line-height: 41px;
@@ -535,7 +535,7 @@ a {
 
 .item-3 p {
   color: #fff;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 45px;
   font-weight: 100;
   line-height: 45px;
@@ -543,7 +543,7 @@ a {
 
 .item-4 p {
   color: #353534;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 45px;
   line-height: 45px;
   letter-spacing: 1px; }
@@ -556,13 +556,13 @@ a {
 .item-2 a,
 .item-3 a {
   color: #fff;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   line-height: 47px; }
 
 .item-4 a {
   color: #353534;
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   line-height: 47px; }
 
@@ -577,7 +577,7 @@ a {
 .menu h3,
 .offer h3,
 .contact h3 {
-  font-family: "font-family: " "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 100;
   margin: 0 auto; }
@@ -952,6 +952,7 @@ body {
     bottom: 0;
     top: 0;
     opacity: 0.5;
+    z-index: 3;
     background-color: black 80%;
     /* Fallback Color */
     background-image: -webkit-gradient(linear, right top, left bottom, from(transparent));
@@ -965,8 +966,7 @@ body {
     background-image: -o-linear-gradient(right top, transparent, black 80%);
     /* Opera 11.3 */
     background-image: linear-gradient(right top, transparent, black 80%);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorSTR='#',EndColorStr='#');
-    z-index: 3; }
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorSTR='#',EndColorStr='#'); }
 
 .item-3:before {
   content: '';
@@ -976,6 +976,7 @@ body {
   bottom: 0;
   top: 0;
   opacity: 0.5;
+  z-index: 3;
   background-color: black 90%;
   /* Fallback Color */
   background-image: -webkit-gradient(linear, right top, left bottom, from(transparent));
@@ -989,8 +990,7 @@ body {
   background-image: -o-linear-gradient(right top, transparent, black 90%);
   /* Opera 11.3 */
   background-image: linear-gradient(right top, transparent, black 90%);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorSTR='#',EndColorStr='#');
-  z-index: 3; }
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorSTR='#',EndColorStr='#'); }
 
 .item-4:before {
   content: '';
@@ -999,6 +999,7 @@ body {
   left: 0;
   bottom: 0;
   top: 0;
+  z-index: 3;
   background-color: white 70%;
   /* Fallback Color */
   background-image: -webkit-gradient(linear, top, bottom, from(transparent));
